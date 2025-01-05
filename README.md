@@ -85,7 +85,7 @@ int checkWin(){
     if(board[4]==board[5] && board[5]==board[6]){
         return 1;
     }
-
+    
     int count=0;
     for (int i = 1; i <=9; i++)
     {
